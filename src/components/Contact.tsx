@@ -100,19 +100,19 @@ export function Contact() {
               {/* Honeypot — hidden from real users */}
               <input ref={honeypotRef} type="text" name="website" tabIndex={-1} aria-hidden="true" style={{ display: 'none' }} />
               <div>
-                <input type="text" placeholder="Your Name" value={name} required
+                <input type="text" placeholder="Your Name" aria-label="Your name" value={name} required
                   onChange={e => setName(e.target.value)} style={inputStyle}
                   onFocus={e => (e.target.style.borderBottomColor = 'var(--fg)')}
                   onBlur={e => (e.target.style.borderBottomColor = 'var(--line-mid)')} />
               </div>
               <div>
-                <input type="email" placeholder="Your Email" value={email} required
+                <input type="email" placeholder="Your Email" aria-label="Your email address" value={email} required
                   onChange={e => setEmail(e.target.value)} style={inputStyle}
                   onFocus={e => (e.target.style.borderBottomColor = 'var(--fg)')}
                   onBlur={e => (e.target.style.borderBottomColor = 'var(--line-mid)')} />
               </div>
               <div>
-                <textarea placeholder="Your Message" value={message} required rows={4}
+                <textarea placeholder="Your Message" aria-label="Your message" value={message} required rows={4}
                   onChange={e => setMessage(e.target.value)}
                   style={{ ...inputStyle, resize: 'none' }}
                   onFocus={e => (e.target.style.borderBottomColor = 'var(--fg)')}

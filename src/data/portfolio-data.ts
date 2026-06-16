@@ -92,6 +92,12 @@ const data: Portfolio = {
 
   projects: [
     {
+      title: "Platform Configuration Framework",
+      tags: ["Python", "Architecture", "Multi-layer Config", "Supply Chain", "Performance"],
+      description: "Designed a multi-layer configuration system (Product Default → Product Override → Project Config → Tenant Config) with namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence. Eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding.",
+      highlight: "Zero config drift · 150+ clients",
+    },
+    {
       title: "Supply Planning Re-engineering",
       tags: ["Python", "PySpark", "Performance Engineering", "Enterprise", "Delta Lake", "OLAP"],
       description: "Re-architected critical supply planning components enabling advanced parameterization, achieving 50% faster batch runs and 30% lower memory footprint across 150+ client deployments.",

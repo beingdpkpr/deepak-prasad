@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useActiveSection } from '../hooks/useActiveSection'
 
@@ -20,11 +20,11 @@ export function Nav() {
     if (el) { scrollTo(id) } else { navigate('/#' + id) }
   }
 
-  useState(() => {
+  useEffect(() => {
     const h = () => setScrolled(window.scrollY > 40)
     window.addEventListener('scroll', h)
     return () => window.removeEventListener('scroll', h)
-  })
+  }, [])
 
   return (
     <nav style={{
@@ -68,7 +68,7 @@ export function Nav() {
         </a>
       </div>
 
-      <button onClick={() => setMenuOpen(m => !m)} className="hamburger" style={{
+      <button onClick={() => setMenuOpen(m => !m)} className="hamburger" aria-label="Toggle navigation menu" aria-expanded={menuOpen} style={{
         background: 'none', border: '1px solid var(--line-hi)', cursor: 'pointer',
         padding: '6px 10px', display: 'none', color: 'var(--fg)', fontSize: 18,
       }}>☰</button>

@@ -137,3 +137,30 @@ textarea { font-family: 'Inter', sans-serif; }
 .article-body a { color: var(--fg); text-underline-offset: 3px; }
 .article-body a:hover { opacity: 0.7; }
 .article-body hr { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
+
+/* ── Focus visibility ── */
+:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Print styles ── */
+@media print {
+  body { background: white !important; color: black !important; }
+  nav, .hamburger { display: none !important; }
+  a { color: black !important; text-decoration: underline; }
+  section { break-inside: avoid; }
+}

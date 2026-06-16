@@ -40,11 +40,13 @@ export function Education() {
                     {edu.projects.map((p, pi) => {
                       const key = `${i}-${pi}`
                       return (
-                        <div key={pi}
+                        <button key={pi}
                           onClick={() => setOpenProj(openProj === key ? null : key)}
+                          aria-expanded={openProj === key}
                           style={{
                             padding: '24px', border: '1px solid var(--line)', cursor: 'pointer',
                             background: openProj === key ? 'var(--surf)' : 'transparent', transition: 'background 0.2s',
+                            width: '100%', textAlign: 'left', display: 'block',
                           }}>
                           <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 15, color: 'var(--fg)', marginBottom: 8 }}>{p.title}</div>
                           {openProj === key && (
@@ -56,7 +58,7 @@ export function Education() {
                           <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 10, color: 'var(--text-dim)', marginTop: 8 }}>
                             {openProj === key ? 'collapse' : '+ details'}
                           </div>
-                        </div>
+                        </button>
                       )
                     })}
                   </div>

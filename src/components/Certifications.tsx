@@ -22,8 +22,12 @@ export function Certifications() {
           <Reveal key={i} delay={i * 0.07}>
             <div style={{ border: '1px solid var(--line)', overflow: 'hidden' }}>
               <div
+                role={cert.courses ? 'button' : undefined}
+                tabIndex={cert.courses ? 0 : undefined}
+                aria-expanded={cert.courses ? expanded === i : undefined}
                 style={{ padding: '32px 40px', display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'center', gap: 24, cursor: cert.courses ? 'pointer' : 'default', transition: 'background 0.2s' }} className="cert-row"
                 onClick={() => cert.courses && setExpanded(expanded === i ? null : i)}
+                onKeyDown={e => { if (cert.courses && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setExpanded(expanded === i ? null : i) } }}
                 onMouseEnter={e => { if (cert.courses) e.currentTarget.style.background = 'var(--surf)' }}
                 onMouseLeave={e => { e.currentTarget.style.background = 'transparent' }}>
                 <div>
