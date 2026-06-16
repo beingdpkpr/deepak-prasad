@@ -18,6 +18,6 @@ describe('Hero', () => {
 
   it('résumé link points to the PDF', () => {
     const link = screen.getByRole('link', { name: /download résumé/i })
-    expect(link.getAttribute('href')).toContain('deepak_prasad_26.pdf')
+    expect(link.getAttribute('href')).toContain('deepak_prasad_26_1.pdf')
   })
 })
