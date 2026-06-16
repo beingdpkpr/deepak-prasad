@@ -31,6 +31,7 @@ const data: Portfolio = {
       duration: "Current",
       location: "Bangalore, India",
       bullets: [
+        "Architected the Supply Planning platform configuration framework — a multi-layer system (Product Default, Product Override, Project Config, Tenant Config) supporting namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence; eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding",
         "Leading Supply Planning engineering team of 10+ developers across TLB, MRP, IOP and core SP modules",
         "Driving architecture decisions for 50+ client-specific customizations maintaining high availability for 150+ global clients",
         "Defining technical roadmaps, engineering standards, and performance benchmarks across the platform",
@@ -44,7 +45,6 @@ const data: Portfolio = {
       duration: "4 yrs",
       location: "Bangalore, India",
       bullets: [
-        "Architected the Supply Planning platform configuration framework — a multi-layer system (Product Default, Product Override, Project Config, Tenant Config) supporting namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence; eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding",
         "Re-engineered core Supply Planning compute pipeline (TLB, MRP, IOP) with advanced parameterization and memory-efficient data structures, achieving 50% reduction in batch computation time and 30% decrease in memory usage across production environments",
         "Architected and integrated 6+ third-party solvers including Samsung NSR using Boost serialization and Parquet-based data exchange",
         "Designed foundational Demand Netting and Order Promising plugins — mission-critical modules now serving 150+ clients globally",
