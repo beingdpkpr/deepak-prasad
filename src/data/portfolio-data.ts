@@ -21,7 +21,7 @@ const data: Portfolio = {
   githubLabel: "github.com/beingdpkpr",
   location: "Bangalore, India · Open to Relocation",
 
-  about: `Technical leader with ${yearsExperience}+ years architecting large-scale supply chain platforms serving 150+ global clients. Proven track record in performance engineering (50% runtime reduction, 30% memory optimization), solver integrations, and leading 10+ developer teams across Python, microservices, and distributed systems. Passionate about creating and innovating, driven to make a difference and leave the world a better place.`,
+  about: `Software Architect with ${yearsExperience}+ years designing large-scale supply chain planning platforms serving 150+ global clients. Deep expertise in distributed systems, solver integrations, multi-layer config frameworks, and performance engineering—delivering 50% compute reduction and 30% memory optimization in production environments. Proven ability to define technical direction, lead 10+ person engineering teams, and translate complex domain problems into scalable platform architecture.`,
 
   experience: [
     {
@@ -44,7 +44,8 @@ const data: Portfolio = {
       duration: "4 yrs",
       location: "Bangalore, India",
       bullets: [
-        "Re-engineered critical Supply Planning components achieving 50% reduction in batch computation time and 30% decrease in memory usage across production environments",
+        "Architected the Supply Planning platform configuration framework — a multi-layer system (Product Default, Product Override, Project Config, Tenant Config) supporting namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence; eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding",
+        "Re-engineered core Supply Planning compute pipeline (TLB, MRP, IOP) with advanced parameterization and memory-efficient data structures, achieving 50% reduction in batch computation time and 30% decrease in memory usage across production environments",
         "Architected and integrated 6+ third-party solvers including Samsung NSR using Boost serialization and Parquet-based data exchange",
         "Designed foundational Demand Netting and Order Promising plugins — mission-critical modules now serving 150+ clients globally",
         "Engineered productivity suite of 7 tools (Tenant Extractor, Builder, Performance Analyzer, Test Recorder/Runner, Rule Creator, Dataset Multiplier) improving consultant productivity by 25%, adopted by 100+ internal teams",
@@ -124,11 +125,12 @@ const data: Portfolio = {
 
   skills: [
     { category: "Languages", items: ["Python", "Java", "C / C++", "SQL"] },
-    { category: "Frameworks & Libraries", items: ["FastAPI", "Angular", "ReactJS", "Streamlit", "Boost (C++)"] },
+    { category: "Frameworks & Libraries", items: ["FastAPI", "Angular", "ReactJS", "Streamlit", "Boost (C++)", "LangGraph"] },
     { category: "Data & Messaging", items: ["PostgreSQL", "Parquet", "ETL Pipelines", "Data Serialization", "RDBMS"] },
     { category: "DevOps & Infrastructure", items: ["Docker", "Kubernetes", "CI/CD", "Linux", "Git"] },
     { category: "Architecture", items: ["Microservices", "Distributed Systems", "API Design", "Performance Optimization", "System Design"] },
     { category: "Domain", items: ["Supply Chain Planning (MRP, Demand Netting, Order Promising)", "Technical Leadership"] },
+    { category: "AI & Automation", items: ["LLM Orchestration (LangGraph, multi-agent patterns)", "Claude API", "Python automation tooling"] },
     { category: "Spoken Languages", items: ["English", "Hindi", "Manipuri", "Bhojpuri", "German"] },
   ],
 
