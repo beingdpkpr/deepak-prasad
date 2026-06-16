@@ -3,3 +3,4 @@ dist/
 .env.local
 .env.*.local
 *.local
+.o9-edits.log
