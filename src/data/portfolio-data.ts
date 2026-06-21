@@ -32,10 +32,8 @@ const data: Portfolio = {
       location: "Bangalore, India",
       bullets: [
         "Architected the Supply Planning platform configuration framework — a multi-layer system (Product Default, Product Override, Project Config, Tenant Config) supporting namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence; eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding",
-        "Leading Supply Planning engineering team of 10+ developers across TLB, MRP, IOP and core SP modules",
-        "Driving architecture decisions for 50+ client-specific customizations maintaining high availability for 150+ global clients",
-        "Defining technical roadmaps, engineering standards, and performance benchmarks across the platform",
-        "Conducting workshops on supply planning architecture and optimization techniques for team upskilling",
+        "Defined technical roadmap and led engineering team of 10+ developers: conducted architecture reviews, established coding standards, drove performance benchmarking culture, and mentored engineers on supply planning domain and distributed systems design.",
+        "Managed people and performance for a team of 10+ engineers: owned hiring decisions, conducted regular 1:1s and performance reviews, and managed performance improvement plans (PIPs) to support engineer growth.",
       ],
     },
     {
@@ -46,10 +44,10 @@ const data: Portfolio = {
       location: "Bangalore, India",
       bullets: [
         "Re-engineered core Supply Planning compute pipeline (TLB, MRP, IOP) with advanced parameterization and memory-efficient data structures, achieving 50% reduction in batch computation time and 30% decrease in memory usage across production environments",
-        "Architected and integrated 6+ third-party solvers including Samsung NSR using Boost serialization and Parquet-based data exchange",
+        "Designed and integrated 6+ third-party optimization solvers with the o9 platform—including Samsung NSR solver using Boost serialization and Parquet-based data exchange—standardizing the solver integration contract and improving deployment scalability across client environments.",
         "Designed foundational Demand Netting and Order Promising plugins — mission-critical modules now serving 150+ clients globally",
         "Engineered productivity suite of 7 tools (Tenant Extractor, Builder, Performance Analyzer, Test Recorder/Runner, Rule Creator, Dataset Multiplier) improving consultant productivity by 25%, adopted by 100+ internal teams",
-        "Managed version control for 30+ plugin variants enabling modular deployments without core platform disruption",
+        "Established a modular plugin versioning system managing 30+ plugin variants, enabling independent deployment and customization per client without disrupting the core platform—reducing release risk and accelerating client onboarding cycles.",
       ],
     },
     {
@@ -84,7 +82,7 @@ const data: Portfolio = {
       location: "Bangalore, India",
       bullets: [
         "Architected workflow orchestration microservice leveraging Netflix Conductor for enterprise orchestration requirements",
-        "Modernized legacy systems by integrating 5+ Google APIs and refactoring core codebases, improving system reliability by 30%",
+        "Modernized a large-scale enterprise security platform by integrating 5+ Google APIs and refactoring core subsystems, improving system reliability and reducing technical debt across the codebase.",
         "Built Attendance & Visitor Management systems on Android, automating check-ins and reducing manual overhead by 70%",
       ],
     },
@@ -134,8 +132,8 @@ const data: Portfolio = {
     { category: "Frameworks & Libraries", items: ["FastAPI", "Angular", "ReactJS", "Streamlit", "Boost (C++)", "LangGraph"] },
     { category: "Data & Messaging", items: ["PostgreSQL", "Parquet", "ETL Pipelines", "Data Serialization", "RDBMS"] },
     { category: "DevOps & Infrastructure", items: ["Docker", "Kubernetes", "CI/CD", "Linux", "Git"] },
-    { category: "Architecture", items: ["Microservices", "Distributed Systems", "API Design", "Performance Optimization", "System Design"] },
-    { category: "Domain", items: ["Supply Chain Planning (MRP, Demand Netting, Order Promising)", "Technical Leadership"] },
+    { category: "Architecture", items: ["Distributed Systems", "Microservices", "Multi-layer Config Frameworks", "API Design", "Performance Optimization", "Solver Integration"] },
+    { category: "Domain", items: ["Supply Chain Planning (MRP, TLB, IOP, Demand Netting, Order Promising)", "Technical Leadership", "People Management"] },
     { category: "AI & Automation", items: ["LLM Orchestration (LangGraph, multi-agent patterns)", "Claude API", "Python automation tooling"] },
     { category: "Spoken Languages", items: ["English", "Hindi", "Manipuri", "Bhojpuri", "German"] },
   ],
