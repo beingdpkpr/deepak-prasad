@@ -82,7 +82,7 @@ export function Hero() {
             GET IN TOUCH
           </button>
           <a
-            href={`${import.meta.env.BASE_URL}assets/deepak_prasad_26_1.pdf`}
+            href={`${import.meta.env.BASE_URL}assets/deepak_prasad_26_3.pdf`}
             download="Deepak_Kumar_Prasad_Resume.pdf"
             aria-label="Download résumé"
             style={{

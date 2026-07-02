@@ -32,8 +32,8 @@ const data: Portfolio = {
       location: "Bangalore, India",
       bullets: [
         "Architected the Supply Planning platform configuration framework — a multi-layer system (Product Default, Product Override, Project Config, Tenant Config) supporting namespace-partitioned overrides, hot-reload via atomic replacement, and schema-validated merge precedence; eliminated config drift across 150+ client deployments and enabled zero-downtime tenant onboarding",
-        "Defined technical roadmap and led engineering team of 10+ developers: conducted architecture reviews, established coding standards, drove performance benchmarking culture, and mentored engineers on supply planning domain and distributed systems design.",
-        "Managed people and performance for a team of 10+ engineers: owned hiring decisions, conducted regular 1:1s and performance reviews, and managed performance improvement plans (PIPs) to support engineer growth.",
+        "Built GenAI agents for supply planning workflows—including a Demand Netting & Demand Prioritization agent that explains functionality, customizes workflows to business requirements, and debugs implementation issues for consultants—plus internal productivity agents for the engineering team, integrated with the o9 platform via MCP tools.",
+        "Built and led engineering teams over 5 years (Apr 2021 – Present)—starting with a small group of direct reports and scaling to a team of 10+ developers over the last 3 years: defined technical roadmap, conducted architecture reviews, established coding standards, drove performance benchmarking culture, and mentored engineers on supply planning domain and distributed systems design.",
       ],
     },
     {
@@ -133,8 +133,8 @@ const data: Portfolio = {
     { category: "Data & Messaging", items: ["PostgreSQL", "Parquet", "ETL Pipelines", "Data Serialization", "RDBMS"] },
     { category: "DevOps & Infrastructure", items: ["Docker", "Kubernetes", "CI/CD", "Linux", "Git"] },
     { category: "Architecture", items: ["Distributed Systems", "Microservices", "Multi-layer Config Frameworks", "API Design", "Performance Optimization", "Solver Integration"] },
-    { category: "Domain", items: ["Supply Chain Planning (MRP, TLB, IOP, Demand Netting, Order Promising)", "Technical Leadership", "People Management"] },
-    { category: "AI & Automation", items: ["LLM Orchestration (LangGraph, multi-agent patterns)", "Claude API", "Python automation tooling"] },
+    { category: "Domain", items: ["Supply Chain Planning (MRP, TLB, IOP, Demand Netting, Order Promising)", "Technical Leadership"] },
+    { category: "AI & Automation", items: ["GenAI Agent Development (LangGraph, Claude API, MCP tool integration)", "Domain-explainer & Debugging Agents", "Python automation tooling"] },
     { category: "Spoken Languages", items: ["English", "Hindi", "Manipuri", "Bhojpuri", "German"] },
   ],
 

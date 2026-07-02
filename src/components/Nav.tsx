@@ -56,7 +56,7 @@ export function Nav() {
             transition: 'all 0.2s',
           }}>{s}</button>
         ))}
-        <a href={`${import.meta.env.BASE_URL}assets/deepak_prasad_26_1.pdf`} download="Deepak_Kumar_Prasad_Resume.pdf"
+        <a href={`${import.meta.env.BASE_URL}assets/deepak_prasad_26_3.pdf`} download="Deepak_Kumar_Prasad_Resume.pdf"
           style={{
             fontFamily: "'Space Mono', monospace", fontSize: 11, letterSpacing: '0.12em',
             textTransform: 'uppercase', color: 'var(--fg-inv)', background: 'var(--fg)',
